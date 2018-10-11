@@ -27,7 +27,7 @@ CREATE TABLE m_user(
 
 CREATE TABLE m_user_bike(
 	user_id VARCHAR(20) NOT NULL,
-	bike_id VARCHAR2(20) NOT NULL,
+	bike_id VARCHAR(20) NOT NULL,
 	create_time TIMESTAMP,
     update_time TIMESTAMP
 );
